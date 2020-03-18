@@ -322,7 +322,7 @@ class Weibo(object):
 
 
 if __name__ == '__main__':
-    wb = Weibo('andrew_wf@sina.cn', 'WF#zero034439')
+    wb = Weibo('******', '******')# input account & password
     login_result = wb.login()
     # if login_result:
     #     wb.main()
